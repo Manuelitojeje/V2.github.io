@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: auto;
+    background-color: #A9A9A9;
+    
+    
+}
+    
+
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin: 10px;
+}
+
+ 
+/*------------------------------------  HEADER  ------------------------------------*/
+
+header
+{
+    background-color: #ff3b3ecb;
+    width: auto;
+    height: auto;
+    padding-top:3px;
+    padding-bottom: 3px;
+}
+
+h1{
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 90px;
+    margin: 0.25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#lo{
+    margin: auto;
+    display: block;
+    float:left;
+    height: 14.5%;
+    width: 9%;
+    position: absolute;
+    left: 5%;
+    border-radius: 50px;
+    width: 100px;
+    top: 2%;
+
+    
+}
+
+
+
+/*------------------------------------  MAIN Y ASIDES  ------------------------------------*/
+.i
+{
+
+    color: #EFEFEF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 85%;
+}
+
+
+
+ul, ol {
+    list-style:none;
+}
+
+.tem > li {
+    float:left;
+}
+
+.tem li a {
+    margin-left: 28px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:#CAEBF2;
+    color:#1f1f1f;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    font-family: cursive;
+    text-align: center;
+    border: 6px solid #ff3b3eaf;
+    border-radius: 25px;
+    
+}
+
+
+
+.tem li a:hover {
+    background-color:#ff3b3eaf;
+}
+
+.tem li ul {
+    display:none;
+    position:absolute;
+ 
+}
+
+.tem li:hover > ul {
+    display:block;
+}
+
+.tem li ul li {
+    position:relative;
+}
+
+.tem li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+
+
+
+#iz{
+    float: left;
+    width: 10%;
+    height: 150%;
+    background-color: #ffffff;
+}
+
+#decor
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+    height: auto;
+    float: left;
+    background-color: #CAEBF2;
+    border: 6px solid #ff3b3eaf;
+    border-radius: 20px;
+    padding-bottom: 2px;
+    
+}
+
+
+h2{
+    color: rgb(30, 30, 31);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+
+/*------------------------------------  FOOTER  ------------------------------------*/
+
+.container-footer
+{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #757575cb;
+    margin-top: 40px;
+
+    
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin:auto;
+
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .redes-footer img{
+    display: inline;
+}
+
+.container-footer footer .logo-footer img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.container-footer footer .redes-footer img{
+    width: 50px;
+}
+
+.container-footer footer hr{
+
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background-color: #A9A9A9;
+
+}
+
+.container-footer h3{
+    text-align: center;
+    margin-top: 20px;
+    color: #CAEBF2;
+    font-weight: 500;
+}
+
